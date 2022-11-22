@@ -2,7 +2,7 @@
 
 	require_once('functions.php');
 	$data_total = query("SELECT * FROM data");
-	$conn = mysqli_connect("localhost", "root", "", "bazar6");
+	$conn = mysqli_connect("localhost", "root", "root", "bazar6");
 
 	if ((isset($_POST["buat-pesanan"])) && (isset($_POST["menu_1"]) || isset($_POST["menu_2"]) || isset($_POST["menu_3"]) || isset($_POST["menu_4"]) || isset($_POST["menu_5"]) || isset($_POST["menu_6"]))) {
 		$nama = $_POST["nama"];
