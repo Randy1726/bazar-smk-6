@@ -2,7 +2,7 @@
 
 	require_once('functions.php');
 	$data_total = query("SELECT * FROM data");
-	$conn = mysqli_connect("localhost", "root", "", "bazar6");
+	$conn = mysqli_connect("localhost", "root", "root", "bazar6");
 
 	$qty_total_1 = 0;
 	$qty_total_2 = 0;
