@@ -1,6 +1,6 @@
 <?php 
 
-	$conn = mysqli_connect("localhost", "root", "", "bazar6");
+	$conn = mysqli_connect("localhost", "root", "root", "bazar6");
 	
 	function query($tabel) {
 		global $conn;
